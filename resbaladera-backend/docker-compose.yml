@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:13
+    restart: always
+    environment:
+      POSTGRES_USER: tu_usuario
+      POSTGRES_PASSWORD: tu_contrasena
+      POSTGRES_DB: resbaladera_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:

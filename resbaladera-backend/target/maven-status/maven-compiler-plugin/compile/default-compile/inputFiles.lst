@@ -1,0 +1,5 @@
+/workspaces/resbaladera-backend/resbaladera-backend/src/main/java/com/resbaladera/app/App.java
+/workspaces/resbaladera-backend/resbaladera-backend/src/main/java/com/resbaladera/app/controller/UsuarioController.java
+/workspaces/resbaladera-backend/resbaladera-backend/src/main/java/com/resbaladera/app/model/Usuario.java
+/workspaces/resbaladera-backend/resbaladera-backend/src/main/java/com/resbaladera/app/repository/UsuarioRepository.java
+/workspaces/resbaladera-backend/resbaladera-backend/src/main/java/com/resbaladera/app/service/UsuarioService.java

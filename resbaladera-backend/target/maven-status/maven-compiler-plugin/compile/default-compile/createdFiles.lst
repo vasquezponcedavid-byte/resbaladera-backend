@@ -1,0 +1,5 @@
+com/resbaladera/app/model/Usuario.class
+com/resbaladera/app/controller/UsuarioController.class
+com/resbaladera/app/service/UsuarioService.class
+com/resbaladera/app/App.class
+com/resbaladera/app/repository/UsuarioRepository.class

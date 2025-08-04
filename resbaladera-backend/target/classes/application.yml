@@ -1,0 +1,26 @@
+# CONFIGURACIÓN DE LA BASE DE DATOS POSTGRESQL
+
+spring:
+  datasource:
+    # URL de conexión a la base de datos.
+    # Asegúrate de que el nombre de la base de datos y el puerto sean correctos.
+    url: jdbc:postgresql://localhost:5432/resbaladeradb
+    # Nombre de usuario de la base de datos
+    username: resbaladeradb_user
+    # Contraseña de la base de datos
+    password: contraseña123 
+    # Driver para PostgreSQL
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    # Configuración de JPA/Hibernate
+    # Esto configurará Hibernate para que se conecte a la base de datos.
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+# Puerto en el que se ejecuta la aplicación, si es necesario cambiarlo
+server:
+  port: 8080
